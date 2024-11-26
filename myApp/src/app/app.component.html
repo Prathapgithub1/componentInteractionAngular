@@ -1,0 +1,4 @@
+<h1 class="heading">Hello componentInteraction</h1>
+<app-child  (sendToParent)="showChild($event)" [comesFromParent]="parent"></app-child>
+
+<p>{{received}}</p>
